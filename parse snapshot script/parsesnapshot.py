@@ -65,11 +65,11 @@ for binfile in binfiles:
 
 
 
-fp = open("tubocommand.txt", 'w')
+#fp = open("tubocommand.txt", 'w')
 for item in result:
     fp.write(item)
     os.system(item)
 
-fp.close()
+#fp.close()
             
 
